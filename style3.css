@@ -188,6 +188,17 @@ a:link {
         justify-content: center;
     }
 }
+@media screen and (max-width: 768px) {
+    .about-info {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .about-img img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
 
 footer {
     padding: 15px;
