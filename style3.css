@@ -26,7 +26,7 @@
     width : 100%;
     z-index: 99;
     border-bottom: solid;
-   border-color: #f53117;
+    border-color: #f53117;
 }
 
 .left h1 {
@@ -127,6 +127,7 @@ a:link {
 .about-img {
     width: 20rem;
     height: 20rem;
+    
  
 }
  
@@ -200,23 +201,17 @@ a:link {
     }
 }
 
-footer {
-    padding: 15px;
-    font-size: 18px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: rgb(227, 240, 240);
-    margin-left: -80px;
-    margin-right: -80px;
-  }
-  
-  .footer{
+
+body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
     background:#000;
     padding:30px 0px;
     font-family: 'Play', sans-serif;
     text-align:center;
-    width:100%;
-    
     }
     
     .footer .row{
@@ -265,3 +260,5 @@ footer {
     margin:0% 3%;
     }
     }
+
+  
